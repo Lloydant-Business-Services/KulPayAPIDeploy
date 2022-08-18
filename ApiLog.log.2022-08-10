@@ -1,0 +1,21 @@
+2022-08-10 02:56:14,218  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-10 02:56:15,662  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-10 02:56:15,670  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-10 02:56:15,670  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-10 04:12:11,222  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-10 04:53:49,529  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-10 04:53:50,548  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-10 04:53:50,554  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-10 04:53:50,554  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-10 05:58:47,398  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-10 09:26:08,505  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-10 09:26:09,768  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-10 09:26:09,772  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-10 09:26:09,773  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-10 10:10:06,146  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-10 10:21:43,199  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-10 10:21:45,071  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-10 10:21:45,074  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-10 10:21:45,075  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-10 10:42:37,600  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 

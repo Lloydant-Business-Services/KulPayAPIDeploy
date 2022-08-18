@@ -1,0 +1,127 @@
+2022-08-07 18:04:30,425  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-07 18:04:32,393  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-07 18:04:32,562  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-07 18:04:32,572  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-07 18:06:01,157  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-07 18:09:40,363  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-07 18:09:41,326  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-07 18:09:41,330  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-07 18:09:41,331  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\PayPlat_Deploy
+ 2022-08-07 18:21:22,705 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:21:28,337 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:21:32,848 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:21:41,535 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:21:45,514 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:22:10,326 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Api\Controllers\AccountController.cs:line 37
+   at lambda_method48(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in Z:\Users\godspeedmiracle\Miracle\Pay_Plat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-07 18:23:59,301  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://api.authy.com/protected/json/phones/verification/start?via=sms&country_code=+234&phone_number=08068247820
+ 2022-08-07 18:23:59,307  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://api.authy.com/protected/json/phones/verification/start?via=sms&country_code=+234&phone_number=08068247820
+ 2022-08-07 18:24:01,215  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Received HTTP response headers after 1903.6823ms - 200
+ 2022-08-07 18:24:01,221  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 1925.4014ms - 200
+ 2022-08-07 18:24:17,011  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request GET https://api.authy.com/protected/json/phones/verification/check?phone_number=08068247820&country_code=+234&verification_code=2824
+ 2022-08-07 18:24:17,026  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Sending HTTP request GET https://api.authy.com/protected/json/phones/verification/check?phone_number=08068247820&country_code=+234&verification_code=2824
+ 2022-08-07 18:24:17,424  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Received HTTP response headers after 397.6934ms - 200
+ 2022-08-07 18:24:17,425  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 413.7793ms - 200
+ 2022-08-07 19:27:01,227  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 

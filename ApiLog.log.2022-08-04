@@ -1,0 +1,134 @@
+2022-08-04 00:49:59,457  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-04 00:50:02,117  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-04 00:50:02,233  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-04 00:50:02,233  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Inetpub\wwwroot\PayPlat_Deploy
+ 2022-08-04 00:59:52,494 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Account not active
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\AccountService.cs:line 249
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\AccountController.cs:line 38
+   at lambda_method56(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 28
+ 2022-08-04 01:00:03,652 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\AccountController.cs:line 38
+   at lambda_method56(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 28
+ 2022-08-04 01:00:18,625 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Username or password is incorrect
+   at PayPlat.Logic.Services.AccountService.Login(LoginDTO loginDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\AccountService.cs:line 246
+   at PayPlat.Api.Controllers.AccountController.Login(LoginDTO loginModel) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\AccountController.cs:line 38
+   at lambda_method56(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-04 01:11:57,635  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-04 01:24:38,543  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-04 01:24:40,177  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-04 01:24:40,180  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-04 01:24:40,180  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Inetpub\wwwroot\PayPlat_Deploy
+ 2022-08-04 01:35:37,401  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2022-08-04 01:45:44,836  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2022-08-04 01:45:46,478  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-08-04 01:45:46,480  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2022-08-04 01:45:46,480  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Inetpub\wwwroot\PayPlat_Deploy
+ 2022-08-04 01:46:20,610  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request POST https://api.authy.com/protected/json/phones/verification/start?via=sms&country_code=+234&phone_number=09028022359
+ 2022-08-04 01:46:20,642  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Sending HTTP request POST https://api.authy.com/protected/json/phones/verification/start?via=sms&country_code=+234&phone_number=09028022359
+ 2022-08-04 01:46:21,352  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Received HTTP response headers after 705.9579ms - 200
+ 2022-08-04 01:46:21,369  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 763.7372ms - 200
+ 2022-08-04 01:46:51,317  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: Start processing HTTP request GET https://api.authy.com/protected/json/phones/verification/check?phone_number=09028022359&country_code=+234&verification_code=9641
+ 2022-08-04 01:46:51,370  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Sending HTTP request GET https://api.authy.com/protected/json/phones/verification/check?phone_number=09028022359&country_code=+234&verification_code=9641
+ 2022-08-04 01:46:51,492  INFO System.Net.Http.HttpClient.Default.ClientHandler.? [?] - MESSAGE: Received HTTP response headers after 121.172ms - 200
+ 2022-08-04 01:46:51,492  INFO System.Net.Http.HttpClient.Default.LogicalHandler.? [?] - MESSAGE: End processing HTTP request after 175.1597ms - 200
+ 2022-08-04 01:50:03,260 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: File size is above the allowed size(1MB)
+   at PayPlat.Logic.Infrastructure.FileUpload.GetFileUploadLink(IFormFile file, String filePath, String directory, String givenFileName) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Infrastructure\FileUpload.cs:line 67
+   at PayPlat.Logic.Services.PersonDocumentService.UploadPersonDocument(PersonVerificationDTO personVerificationDTO, String filePath, String directory) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\PersonDocumentService.cs:line 37
+   at PayPlat.Logic.Services.AccountService.UploadPersonDocument(PersonVerificationDTO personVerificationDTO, String filePath, String directory) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\AccountService.cs:line 313
+   at PayPlat.Api.Controllers.AccountController.PersonVerification(PersonVerificationDTO personVerificationDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\AccountController.cs:line 121
+   at lambda_method446(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 28
+ 2022-08-04 01:53:09,128 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: File size is above the allowed size(1MB)
+   at PayPlat.Logic.Infrastructure.FileUpload.GetFileUploadLink(IFormFile file, String filePath, String directory, String givenFileName) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Infrastructure\FileUpload.cs:line 67
+   at PayPlat.Logic.Services.PersonDocumentService.UploadPersonDocument(PersonVerificationDTO personVerificationDTO, String filePath, String directory) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\PersonDocumentService.cs:line 37
+   at PayPlat.Logic.Services.AccountService.UploadPersonDocument(PersonVerificationDTO personVerificationDTO, String filePath, String directory) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\AccountService.cs:line 313
+   at PayPlat.Api.Controllers.AccountController.PersonVerification(PersonVerificationDTO personVerificationDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\AccountController.cs:line 121
+   at lambda_method446(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 2022-08-04 02:00:50,248 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [32] - MESSAGE: PayPlat.Logic.Infrastructure.AppException: Vendor already exist
+   at PayPlat.Logic.Services.VendorService.AddNewVendor(AddVendorDTO addVendorDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Services\VendorService.cs:line 27
+   at PayPlat.Api.Controllers.VendorController.Post(AddVendorDTO addVendorDTO) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Api\Controllers\VendorController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\udevalentine\Documents\Office\PayPlat\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 64
+ 
