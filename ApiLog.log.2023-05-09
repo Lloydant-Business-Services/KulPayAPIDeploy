@@ -1,0 +1,61 @@
+2023-05-09 10:40:34,322  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-05-09 10:40:35,654  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-05-09 10:40:36,000  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-05-09 10:40:37,019  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-05-09 10:40:37,020  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-05-09 10:40:37,021  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-05-09 10:40:37,047  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-05-09 10:40:37,051  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-05-09 10:40:37,052  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPay_Deploy
+ 2023-05-09 10:40:37,102  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f successfully announced in 62.5402 ms
+ 2023-05-09 10:40:37,127  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-05-09 10:40:37,204  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f all the dispatchers started
+ 2023-05-09 11:20:28,480  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-05-09 11:20:28,488  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f caught stopping signal...
+ 2023-05-09 11:20:28,491  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f caught stopped signal...
+ 2023-05-09 11:20:28,497  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f All dispatchers stopped
+ 2023-05-09 11:20:28,503  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f successfully reported itself as stopped in 3.4082 ms
+ 2023-05-09 11:20:28,505  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19192:01c85d6f has been stopped in total 15.3405 ms
+ 2023-05-09 11:51:11,711  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-05-09 11:51:13,519  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-05-09 11:51:13,784  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-05-09 11:51:14,911  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-05-09 11:51:14,912  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-05-09 11:51:14,913  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-05-09 11:51:14,938  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-05-09 11:51:14,941  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-05-09 11:51:14,942  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPay_Deploy
+ 2023-05-09 11:51:14,961  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 successfully announced in 23.1379 ms
+ 2023-05-09 11:51:14,968  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-05-09 11:51:15,037  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 all the dispatchers started
+ 2023-05-09 16:52:46,160  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-05-09 16:52:46,166  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 caught stopping signal...
+ 2023-05-09 16:52:46,176  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 caught stopped signal...
+ 2023-05-09 16:52:46,183  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 All dispatchers stopped
+ 2023-05-09 16:52:46,198  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 successfully reported itself as stopped in 8.1224 ms
+ 2023-05-09 16:52:46,199  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:19036:4e3b99e7 has been stopped in total 31.505 ms
+ 2023-05-09 16:54:23,142  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-05-09 16:54:24,629  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-05-09 16:54:24,925  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-05-09 16:54:26,050  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-05-09 16:54:26,052  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-05-09 16:54:26,052  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-05-09 16:54:26,083  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-05-09 16:54:26,086  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-05-09 16:54:26,086  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPay_Deploy
+ 2023-05-09 16:54:26,102  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8148:1343a7e5 successfully announced in 23.3082 ms
+ 2023-05-09 16:54:26,108  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8148:1343a7e5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-05-09 16:54:26,253  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8148:1343a7e5 all the dispatchers started
+ 
