@@ -1,0 +1,186 @@
+2023-06-24 00:12:04,345  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-24 00:12:05,718  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-24 00:12:05,976  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-24 00:12:07,083  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-24 00:12:07,084  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-24 00:12:07,085  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-24 00:12:07,103  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-24 00:12:07,105  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-24 00:12:07,106  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-24 00:12:07,114  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 successfully announced in 10.8328 ms
+ 2023-06-24 00:12:07,119  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-24 00:12:07,143  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 all the dispatchers started
+ 2023-06-24 00:22:07,140  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-06-24 00:27:07,212  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-06-24 00:34:00,924  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-24 00:34:00,929  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 caught stopping signal...
+ 2023-06-24 00:34:00,934  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 caught stopped signal...
+ 2023-06-24 00:34:00,936  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 All dispatchers stopped
+ 2023-06-24 00:34:00,941  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 successfully reported itself as stopped in 2.8211 ms
+ 2023-06-24 00:34:00,941  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4280:0be24ef4 has been stopped in total 11.6313 ms
+ 2023-06-24 07:21:34,243  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-24 07:21:35,135  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-24 07:21:35,304  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-24 07:21:35,938  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-24 07:21:35,938  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-24 07:21:35,939  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-24 07:21:35,951  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-24 07:21:35,953  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-24 07:21:35,953  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-24 07:21:35,962  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 successfully announced in 11.2283 ms
+ 2023-06-24 07:21:35,965  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-24 07:21:35,970  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 3 servers were removed due to timeout
+ 2023-06-24 07:21:35,987  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 all the dispatchers started
+ 2023-06-24 08:11:33,577  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-24 08:11:33,583  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 caught stopping signal...
+ 2023-06-24 08:11:33,584  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 caught stopped signal...
+ 2023-06-24 08:11:33,591  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 All dispatchers stopped
+ 2023-06-24 08:11:33,596  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 successfully reported itself as stopped in 2.811 ms
+ 2023-06-24 08:11:33,598  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:12512:06fa3c76 has been stopped in total 14.3226 ms
+ 2023-06-24 13:08:14,773  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-24 13:08:15,593  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-24 13:08:15,769  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-24 13:08:16,418  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-24 13:08:16,418  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-24 13:08:16,419  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-24 13:08:16,438  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-24 13:08:16,439  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-24 13:08:16,440  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-24 13:08:16,450  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 successfully announced in 12.3203 ms
+ 2023-06-24 13:08:16,454  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-24 13:08:16,474  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 all the dispatchers started
+ 2023-06-24 13:29:12,938  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-24 13:29:12,942  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 caught stopping signal...
+ 2023-06-24 13:29:12,946  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 caught stopped signal...
+ 2023-06-24 13:29:12,948  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 All dispatchers stopped
+ 2023-06-24 13:29:12,953  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 successfully reported itself as stopped in 2.7477 ms
+ 2023-06-24 13:29:12,953  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8120:61f7d4e9 has been stopped in total 10.9999 ms
+ 2023-06-24 19:54:37,094  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-24 19:54:38,371  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-24 19:54:38,552  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-24 19:54:39,232  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-24 19:54:39,233  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-24 19:54:39,233  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-24 19:54:39,247  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-24 19:54:39,249  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-24 19:54:39,249  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-24 19:54:39,259  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 successfully announced in 12.1416 ms
+ 2023-06-24 19:54:39,262  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-24 19:54:39,266  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-06-24 19:54:39,277  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 all the dispatchers started
+ 2023-06-24 19:54:39,330  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:35.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 19:54:39,330  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44113': an exception occurred. Retry attempt 6 of 10 will be performed in 00:13:10.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedEmail()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 19:54:39,374  WARN Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be retried in 00:00:15.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:54:54,401  WARN Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be retried in 00:00:15.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:55:09,449  WARN Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be retried in 00:00:15.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:55:24,422  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:16.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 19:55:24,480  WARN Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be retried in 00:00:15.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:55:39,538  WARN Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be retried in 00:00:15.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:55:54,464  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:13.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 19:55:54,572 ERROR Hangfire.Server.RecurringJobScheduler.? [?] - MESSAGE: Recurring job 'IJobRunner.ProcessQueuedTask' can't be scheduled due to an error and will be disabled.
+ System.InvalidOperationException: Recurring job can't be scheduled, see inner exception for details.
+ ---> Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+   at Hangfire.RecurringJobEntity..ctor(String recurringJobId, IDictionary`2 recurringJob, ITimeZoneResolver timeZoneResolver, DateTime now)
+   --- End of inner exception stack trace ---
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now)
+2023-06-24 19:57:09,575  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:20.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:00:39,829  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 5 of 10 will be performed in 00:04:36.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:05:25,218  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 6 of 10 will be performed in 00:10:52.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:07:55,414  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44113': an exception occurred. Retry attempt 7 of 10 will be performed in 00:21:51.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedEmail()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:16:26,196  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 7 of 10 will be performed in 00:22:33.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:29:57,145  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44113': an exception occurred. Retry attempt 8 of 10 will be performed in 00:41:12.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedEmail()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:39:12,911  WARN Hangfire.AutomaticRetryAttribute.? [?] - MESSAGE: Failed to process the job '44117': an exception occurred. Retry attempt 8 of 10 will be performed in 00:44:08.
+ System.InvalidOperationException: The type `PayPlat.Logic.CronJob.Interface.IJobRunner` does not contain a method with signature `ProcessQueuedTask()`
+   at Hangfire.Storage.InvocationData.DeserializeJob()
+2023-06-24 20:48:35,412  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-24 20:48:35,420  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 caught stopping signal...
+ 2023-06-24 20:48:35,426  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 caught stopped signal...
+ 2023-06-24 20:48:35,438  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 All dispatchers stopped
+ 2023-06-24 20:48:35,446  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 successfully reported itself as stopped in 3.6365 ms
+ 2023-06-24 20:48:35,447  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11728:7f37fe48 has been stopped in total 25.3876 ms
+ 

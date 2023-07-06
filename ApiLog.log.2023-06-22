@@ -1,0 +1,85 @@
+2023-06-22 08:36:10,781  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-22 08:36:13,020  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-22 08:36:13,580  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-22 08:36:14,573  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-22 08:36:14,574  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-22 08:36:14,575  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-22 08:36:14,591  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-22 08:36:14,594  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-22 08:36:14,594  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-22 08:36:14,608  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f successfully announced in 18.1022 ms
+ 2023-06-22 08:36:14,614  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-22 08:36:14,620  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-06-22 08:36:14,630  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f all the dispatchers started
+ 2023-06-22 09:36:36,354  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-22 09:36:36,361  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f caught stopping signal...
+ 2023-06-22 09:36:36,362  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f caught stopped signal...
+ 2023-06-22 09:36:36,366  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f All dispatchers stopped
+ 2023-06-22 09:36:36,377  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f successfully reported itself as stopped in 2.8999 ms
+ 2023-06-22 09:36:36,380  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:21348:627d459f has been stopped in total 17.6494 ms
+ 2023-06-22 15:12:41,123  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-22 15:12:42,583  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-22 15:12:42,839  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-22 15:12:43,927  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-22 15:12:43,928  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-22 15:12:43,929  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-22 15:12:43,953  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-22 15:12:43,956  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-22 15:12:43,957  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-22 15:12:43,974  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d successfully announced in 19.9069 ms
+ 2023-06-22 15:12:43,982  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-22 15:12:44,015  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d all the dispatchers started
+ 2023-06-22 15:17:40,397 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.FormatException: Could not find any recognizable digits.
+   at PayPlat.Api.MidddleWares.TestEncryption.AESDecryptWithVector(String ciphertext) in C:\Projects\KulpayApi\PayPlat.Api\MidddleWares\TestEncryption.cs:line 187
+   at PayPlat.Api.Controllers.AccountController.Login(String encryptedpayload) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\AccountController.cs:line 65
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 40
+ 2023-06-22 15:17:43,992  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-06-22 15:19:46,086 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.FormatException: Could not find any recognizable digits.
+   at PayPlat.Api.MidddleWares.TestEncryption.AESDecryptWithVector(String ciphertext) in C:\Projects\KulpayApi\PayPlat.Api\MidddleWares\TestEncryption.cs:line 187
+   at PayPlat.Api.Controllers.AccountController.Login(String encryptedpayload) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\AccountController.cs:line 65
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 40
+ 2023-06-22 15:40:37,525  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-22 15:40:37,528  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d caught stopping signal...
+ 2023-06-22 15:40:37,534  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d caught stopped signal...
+ 2023-06-22 15:40:37,537  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d All dispatchers stopped
+ 2023-06-22 15:40:37,542  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d successfully reported itself as stopped in 3.3273 ms
+ 2023-06-22 15:40:37,543  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:6920:0d57029d has been stopped in total 12.6494 ms
+ 

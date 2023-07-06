@@ -1,0 +1,45 @@
+2023-06-29 08:41:57,524  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-29 08:41:59,095  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-29 08:41:59,501  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-29 08:42:00,748  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-29 08:42:00,749  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-29 08:42:00,750  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-29 08:42:00,796  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-29 08:42:00,800  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-29 08:42:00,801  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-29 08:42:00,826  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 successfully announced in 37.6316 ms
+ 2023-06-29 08:42:00,834  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-29 08:42:01,110  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 all the dispatchers started
+ 2023-06-29 09:09:56,057  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-29 09:09:56,080  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 caught stopping signal...
+ 2023-06-29 09:09:56,082  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 caught stopped signal...
+ 2023-06-29 09:09:56,089  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 All dispatchers stopped
+ 2023-06-29 09:09:56,093  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 successfully reported itself as stopped in 2.3914 ms
+ 2023-06-29 09:09:56,095  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:11872:45720c29 has been stopped in total 13.2987 ms
+ 2023-06-29 14:05:24,423  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-06-29 14:05:25,657  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-06-29 14:05:25,915  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-06-29 14:05:26,812  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-06-29 14:05:26,813  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-06-29 14:05:26,814  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-06-29 14:05:26,832  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-29 14:05:26,834  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-06-29 14:05:26,834  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-06-29 14:05:26,847  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a successfully announced in 16.2576 ms
+ 2023-06-29 14:05:26,854  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-06-29 14:05:26,895  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a all the dispatchers started
+ 2023-06-29 14:26:21,139  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-06-29 14:26:21,144  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a caught stopping signal...
+ 2023-06-29 14:26:21,150  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a caught stopped signal...
+ 2023-06-29 14:26:21,152  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a All dispatchers stopped
+ 2023-06-29 14:26:21,157  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a successfully reported itself as stopped in 2.7768 ms
+ 2023-06-29 14:26:21,157  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16036:06812f6a has been stopped in total 11.983 ms
+ 
