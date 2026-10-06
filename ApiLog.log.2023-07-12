@@ -1,0 +1,352 @@
+2023-07-12 14:39:36,609  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-12 14:39:36,811  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-12 14:39:38,046  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-12 14:39:38,427  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-12 14:39:39,484  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-12 14:39:39,487  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-12 14:39:39,488  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-12 14:39:39,509  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-12 14:39:39,514  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-12 14:39:39,514  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-12 14:39:39,551  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c successfully announced in 42.9483 ms
+ 2023-07-12 14:39:39,559  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-12 14:39:39,578  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c all the dispatchers started
+ 2023-07-12 15:08:44,787  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [186] - MESSAGE: EMAIL SIGN UP: action failedDatabase operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.....at: 07/12/2023 15:08:44 +01:00
+ 2023-07-12 15:45:32,730  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-12 15:45:32,736  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c caught stopping signal...
+ 2023-07-12 15:45:32,738  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c caught stopped signal...
+ 2023-07-12 15:45:32,754  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c All dispatchers stopped
+ 2023-07-12 15:45:32,761  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c successfully reported itself as stopped in 3.536 ms
+ 2023-07-12 15:45:32,761  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:8468:841d635c has been stopped in total 23.9101 ms
+ 2023-07-12 15:47:38,763  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-12 15:47:38,972  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-12 15:47:40,328  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-12 15:47:40,627  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-12 15:47:41,770  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-12 15:47:41,771  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-12 15:47:41,771  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-12 15:47:41,798  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-12 15:47:41,801  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-12 15:47:41,801  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-12 15:47:41,828  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad successfully announced in 23.6698 ms
+ 2023-07-12 15:47:41,838  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-12 15:47:41,947  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad all the dispatchers started
+ 2023-07-12 16:37:03,640 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:44:42,383 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:45:35,830 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:47:23,564 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:47:37,517 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:48:46,629 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 16:49:24,493 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PayPlat.Logic.Services.CollectionService.ResolveRotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\CollectionService.cs:line 668
+   at PayPlat.Logic.Services.ReportingService.ResolveTotalCollectionSum(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Logic\Services\ReportingService.cs:line 42
+   at PayPlat.Api.Controllers.ReportingController.TotalCollectionSumByInstitution(Guid institutionId, Guid collectionId) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\ReportingController.cs:line 38
+   at lambda_method1387(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 17:39:23,552 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at PayPlat.Logic.Infrastructure.Slugger.RemoveAccent(String txt) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 27
+   at PayPlat.Logic.Infrastructure.Slugger.GenerateSlug(String phrase) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 15
+   at PayPlat.Logic.Services.PaymentProcessService.RegisterStudentPaymentRequest(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Logic\Services\PaymentProcessService.cs:line 37
+   at PayPlat.Api.Controllers.KulpaypaymentController.MakePayment(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 92
+   at PayPlat.Api.Controllers.KulpaypaymentController.Gateway(String apiKey, String collectionKey, PortalPaymentRequestDTO portalPaymentRequestDTO) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 17:40:42,473 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at PayPlat.Logic.Infrastructure.Slugger.RemoveAccent(String txt) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 27
+   at PayPlat.Logic.Infrastructure.Slugger.GenerateSlug(String phrase) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 15
+   at PayPlat.Logic.Services.PaymentProcessService.RegisterStudentPaymentRequest(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Logic\Services\PaymentProcessService.cs:line 37
+   at PayPlat.Api.Controllers.KulpaypaymentController.MakePayment(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 92
+   at PayPlat.Api.Controllers.KulpaypaymentController.Gateway(String apiKey, String collectionKey, PortalPaymentRequestDTO portalPaymentRequestDTO) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 17:43:02,639 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at PayPlat.Logic.Infrastructure.Slugger.RemoveAccent(String txt) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 27
+   at PayPlat.Logic.Infrastructure.Slugger.GenerateSlug(String phrase) in C:\Projects\KulpayApi\PayPlat.Logic\Infrastructure\Slugger.cs:line 15
+   at PayPlat.Logic.Services.PaymentProcessService.RegisterStudentPaymentRequest(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Logic\Services\PaymentProcessService.cs:line 37
+   at PayPlat.Api.Controllers.KulpaypaymentController.MakePayment(PortalPaymentRequestDTO portalPaymentRequestDTO, CollectionDTO collection) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 92
+   at PayPlat.Api.Controllers.KulpaypaymentController.Gateway(String apiKey, String collectionKey, PortalPaymentRequestDTO portalPaymentRequestDTO) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\KulpaypaymentController.cs:line 87
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 17:54:36,544  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-07-12 17:54:58,596 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (23ms) [Parameters=[@p21='69', @p0='True', @p1='130000.00' (Precision = 18) (Scale = 2), @p2='DEMO235806' (Size = 150), @p3='17953be6-fd9e-426b-8f80-ac5ca27b5fd2', @p4='2023-07-12T16:52:58.6314797', @p5=NULL (DbType = DateTime2), @p6='1' (Nullable = true), @p7='Tax Levy' (Size = 500), @p8='bm80i5wjql296m9' (Size = 200), @p9='zmy9864i5w' (Size = 4000), @p10='False', @p11='1' (Nullable = true), @p12='1' (Nullable = true), @p13='0', @p14='1' (Nullable = true), @p15='0' (Nullable = true), @p16=NULL (Size = 20), @p17='fef24aaa-1733-4e3a-0aef-08db82f797b8', @p18=NULL (Size = 20), @p19='N0DXL84F0C8UM7Y' (Nullable = false) (Size = 100), @p20='133350.00' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [STUDENT_PAYMENT] SET [Active] = @p0, [Amount] = @p1, [ClientPortalIdentifier] = @p2, [CollectionId] = @p3, [Created] = @p4, [DatePaid] = @p5, [DepartmentId] = @p6, [Description] = @p7, [GatewayCode] = @p8, [GatewayReference] = @p9, [IsPaid] = @p10, [LevelId] = @p11, [PaymentGatewayId] = @p12, [PaymentMode] = @p13, [ProgrammeId] = @p14, [SessionId] = @p15, [StatusCode] = @p16, [StudentId] = @p17, [SystemCode] = @p18, [SystemPaymentReference] = @p19, [TotalAmountWithKulCharges] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;
+ 2023-07-12 17:54:58,669 ERROR Microsoft.EntityFrameworkCore.Update.? [?] - MESSAGE: An exception occurred in the database while saving changes for context type 'PayPlat.Data.Models.PayPlatContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_STUDENT_PAYMENT_SESSION_SessionId". The conflict occurred in database "PayPlatDb", table "dbo.SESSION", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:4e608dcb-92ec-4d19-a36b-e2b4f5551972
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_STUDENT_PAYMENT_SESSION_SessionId". The conflict occurred in database "PayPlatDb", table "dbo.SESSION", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:4e608dcb-92ec-4d19-a36b-e2b4f5551972
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-12 17:54:58,692 ERROR PayPlat.Logic.Middleware.ErrorHandlerMiddleware.MoveNext [55] - MESSAGE: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_STUDENT_PAYMENT_SESSION_SessionId". The conflict occurred in database "PayPlatDb", table "dbo.SESSION", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:4e608dcb-92ec-4d19-a36b-e2b4f5551972
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PayPlat.Logic.Services.StudentPaymentService.UpdateProgrammeDepartment(InitializeTransactioDto dto) in C:\Projects\KulpayApi\PayPlat.Logic\Services\StudentPaymentService.cs:line 183
+   at PayPlat.Logic.Services.Paystack.PaystackService.InitializeTransaction(InitializeTransactioDto dto) in C:\Projects\KulpayApi\PayPlat.Logic\Services\PaystackTransaction\PaystackService.cs:line 84
+   at PayPlat.Api.Controllers.PaymentGatewayController.InitializeTransaction(InitializeTransactioDto dto) in C:\Projects\KulpayApi\PayPlat.Api\Controllers\PaymentGatewayController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PayPlat.Logic.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext httpContext, ILogger`1 logger) in C:\Projects\KulpayApi\PayPlat.Logic\Middleware\ErrorHandlerMiddleware.cs:line 87
+ 2023-07-12 19:38:36,242  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-12 19:38:36,287  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad caught stopping signal...
+ 2023-07-12 19:38:36,292  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad caught stopped signal...
+ 2023-07-12 19:38:36,308  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad All dispatchers stopped
+ 2023-07-12 19:38:36,326  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad successfully reported itself as stopped in 10.4219 ms
+ 2023-07-12 19:38:36,327  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:27188:587e96ad has been stopped in total 35.7987 ms
+ 

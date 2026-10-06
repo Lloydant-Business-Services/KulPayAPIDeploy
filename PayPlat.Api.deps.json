@@ -2134,7 +2134,10 @@
           "PayStackDotNetSDK": "1.4.4"
         },
         "runtime": {
-          "PayPlat.Data.dll": {}
+          "PayPlat.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "PayPlat.Data.dll": {}
@@ -2163,7 +2166,10 @@
           "RestSharp": "107.1.1"
         },
         "runtime": {
-          "PayPlat.Logic.dll": {}
+          "PayPlat.Logic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "PayPlat.Logic.dll": {}

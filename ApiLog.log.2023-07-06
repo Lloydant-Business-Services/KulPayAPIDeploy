@@ -1,0 +1,252 @@
+2023-07-06 09:48:31,879  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 09:48:32,024  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 09:48:33,131  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 09:48:33,410  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 09:48:34,131  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 09:48:34,132  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 09:48:34,133  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 09:48:34,147  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 09:48:34,149  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 09:48:34,150  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 09:48:34,163  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 successfully announced in 17.0066 ms
+ 2023-07-06 09:48:34,172  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 09:48:34,201  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 all the dispatchers started
+ 2023-07-06 10:02:28,442  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 10:02:28,456  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 caught stopping signal...
+ 2023-07-06 10:02:28,468  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 caught stopped signal...
+ 2023-07-06 10:02:28,471  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 All dispatchers stopped
+ 2023-07-06 10:02:28,479  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 successfully reported itself as stopped in 5.018 ms
+ 2023-07-06 10:02:28,480  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20216:a065a463 has been stopped in total 22.1808 ms
+ 2023-07-06 10:02:48,523  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 10:02:48,713  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 10:02:49,992  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 10:02:50,331  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 10:02:51,468  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 10:02:51,470  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 10:02:51,471  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 10:02:51,503  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 10:02:51,506  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 10:02:51,506  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 10:02:51,548  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce successfully announced in 52.1742 ms
+ 2023-07-06 10:02:51,558  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 10:02:51,686  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce all the dispatchers started
+ 2023-07-06 10:07:51,603  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-07-06 10:15:10,479  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 10:15:10,485  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce caught stopping signal...
+ 2023-07-06 10:15:10,496  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce caught stopped signal...
+ 2023-07-06 10:15:10,498  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce All dispatchers stopped
+ 2023-07-06 10:15:10,520  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce successfully reported itself as stopped in 17.2227 ms
+ 2023-07-06 10:15:10,521  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:4328:d26fa3ce has been stopped in total 35.1353 ms
+ 2023-07-06 10:15:26,841  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 10:15:27,101  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 10:15:27,995  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 10:15:28,200  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 10:15:29,001  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 10:15:29,002  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 10:15:29,003  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 10:15:29,032  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 10:15:29,035  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 10:15:29,035  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 10:15:29,038  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec successfully announced in 20.2242 ms
+ 2023-07-06 10:15:29,046  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 10:15:29,111  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec all the dispatchers started
+ 2023-07-06 10:19:12,570  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 10:19:12,573  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec caught stopping signal...
+ 2023-07-06 10:19:12,578  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec caught stopped signal...
+ 2023-07-06 10:19:12,582  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec All dispatchers stopped
+ 2023-07-06 10:19:12,587  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec successfully reported itself as stopped in 2.6826 ms
+ 2023-07-06 10:19:12,588  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:7544:e3b6d7ec has been stopped in total 13.9913 ms
+ 2023-07-06 10:19:41,136  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 10:19:41,269  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 10:19:42,023  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 10:19:42,227  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 10:19:42,885  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 10:19:42,886  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 10:19:42,887  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 10:19:42,902  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 10:19:42,904  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 10:19:42,904  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 10:19:42,915  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 successfully announced in 14.1041 ms
+ 2023-07-06 10:19:42,918  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 10:19:42,942  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 all the dispatchers started
+ 2023-07-06 10:24:58,732  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:24:58 +01:00
+ 2023-07-06 10:25:13,724  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:25:13 +01:00
+ 2023-07-06 10:25:28,755  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:25:28 +01:00
+ 2023-07-06 10:25:43,771  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:25:43 +01:00
+ 2023-07-06 10:25:58,824  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:25:58 +01:00
+ 2023-07-06 10:26:13,841  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:26:13 +01:00
+ 2023-07-06 10:26:28,854  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:26:28 +01:00
+ 2023-07-06 10:26:43,875  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:26:43 +01:00
+ 2023-07-06 10:26:58,924  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:26:58 +01:00
+ 2023-07-06 10:27:13,967  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:27:13 +01:00
+ 2023-07-06 10:27:28,987  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:27:28 +01:00
+ 2023-07-06 10:27:44,011  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:27:44 +01:00
+ 2023-07-06 10:27:59,028  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:27:59 +01:00
+ 2023-07-06 10:28:14,069  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:28:14 +01:00
+ 2023-07-06 10:28:29,092  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:28:29 +01:00
+ 2023-07-06 10:28:44,100  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:28:44 +01:00
+ 2023-07-06 10:28:59,111  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:28:59 +01:00
+ 2023-07-06 10:29:14,183  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:29:14 +01:00
+ 2023-07-06 10:29:29,211  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:29:29 +01:00
+ 2023-07-06 10:29:44,216  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:29:44 +01:00
+ 2023-07-06 10:29:59,247  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:29:59 +01:00
+ 2023-07-06 10:30:14,262  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:30:14 +01:00
+ 2023-07-06 10:30:29,323  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:30:29 +01:00
+ 2023-07-06 10:30:44,339  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:30:44 +01:00
+ 2023-07-06 10:30:59,366  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:30:59 +01:00
+ 2023-07-06 10:31:14,382  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:31:14 +01:00
+ 2023-07-06 10:31:29,431  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:31:29 +01:00
+ 2023-07-06 10:31:44,447  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:31:44 +01:00
+ 2023-07-06 10:31:59,478  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:31:59 +01:00
+ 2023-07-06 10:32:14,509  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:32:14 +01:00
+ 2023-07-06 10:32:29,547  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:32:29 +01:00
+ 2023-07-06 10:32:44,572  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:32:44 +01:00
+ 2023-07-06 10:32:59,596  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:32:59 +01:00
+ 2023-07-06 10:33:14,618  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:33:14 +01:00
+ 2023-07-06 10:33:29,650  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:33:29 +01:00
+ 2023-07-06 10:33:44,694  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:33:44 +01:00
+ 2023-07-06 10:33:59,735  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:33:59 +01:00
+ 2023-07-06 10:34:14,743  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:34:14 +01:00
+ 2023-07-06 10:34:29,767  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:34:29 +01:00
+ 2023-07-06 10:34:44,807  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:34:44 +01:00
+ 2023-07-06 10:34:59,840  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:34:59 +01:00
+ 2023-07-06 10:35:14,847  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:35:14 +01:00
+ 2023-07-06 10:35:29,871  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:35:29 +01:00
+ 2023-07-06 10:35:44,923  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:35:44 +01:00
+ 2023-07-06 10:35:59,952  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:35:59 +01:00
+ 2023-07-06 10:36:14,973  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:36:14 +01:00
+ 2023-07-06 10:36:30,016  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:36:30 +01:00
+ 2023-07-06 10:36:45,025  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:36:45 +01:00
+ 2023-07-06 10:37:00,069  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:37:00 +01:00
+ 2023-07-06 10:37:15,086  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:37:15 +01:00
+ 2023-07-06 10:37:30,098  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:37:30 +01:00
+ 2023-07-06 10:37:45,117  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:37:45 +01:00
+ 2023-07-06 10:38:00,144  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:38:00 +01:00
+ 2023-07-06 10:38:15,179  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:38:15 +01:00
+ 2023-07-06 10:38:30,195  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:38:30 +01:00
+ 2023-07-06 10:38:45,213  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:38:45 +01:00
+ 2023-07-06 10:39:00,236  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:39:00 +01:00
+ 2023-07-06 10:39:15,284  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:39:15 +01:00
+ 2023-07-06 10:39:30,317  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:39:30 +01:00
+ 2023-07-06 10:39:45,325  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:39:45 +01:00
+ 2023-07-06 10:40:00,339  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:40:00 +01:00
+ 2023-07-06 10:40:15,362  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:40:15 +01:00
+ 2023-07-06 10:40:30,405  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:40:30 +01:00
+ 2023-07-06 10:40:45,425  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [170] - MESSAGE: EMAIL SIGN UP: action failedObject reference not set to an instance of an object.....at: 07/06/2023 10:40:45 +01:00
+ 2023-07-06 10:40:45,735  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 10:40:45,739  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 caught stopping signal...
+ 2023-07-06 10:40:45,745  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 caught stopped signal...
+ 2023-07-06 10:40:45,747  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 All dispatchers stopped
+ 2023-07-06 10:40:45,754  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 successfully reported itself as stopped in 2.6288 ms
+ 2023-07-06 10:40:45,755  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:20736:4d7734f5 has been stopped in total 14.9606 ms
+ 2023-07-06 10:44:44,034  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 10:44:44,250  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 10:44:45,481  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 10:44:45,883  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 10:44:46,948  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 10:44:46,951  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 10:44:46,953  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 10:44:46,978  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 10:44:46,982  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 10:44:46,982  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 10:44:47,012  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc successfully announced in 21.4991 ms
+ 2023-07-06 10:44:47,017  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 10:44:47,065  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc all the dispatchers started
+ 2023-07-06 10:44:59,857  INFO PayPlat.Logic.CronJob.JobRunner.MoveNext [182] - MESSAGE: EMAIL SIGN UP: action failedDatabase operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.....at: 07/06/2023 10:44:59 +01:00
+ 2023-07-06 10:47:07,212  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 10:47:07,217  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc caught stopping signal...
+ 2023-07-06 10:47:07,224  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc caught stopped signal...
+ 2023-07-06 10:47:07,225  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc All dispatchers stopped
+ 2023-07-06 10:47:07,232  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc successfully reported itself as stopped in 3.4643 ms
+ 2023-07-06 10:47:07,232  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:16952:df505efc has been stopped in total 14.3527 ms
+ 2023-07-06 11:06:04,713  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 11:06:04,820  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 11:06:05,494  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 11:06:05,651  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 11:06:06,312  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 11:06:06,313  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 11:06:06,313  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 11:06:06,327  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 11:06:06,329  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 11:06:06,329  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 11:06:06,339  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 successfully announced in 12.4608 ms
+ 2023-07-06 11:06:06,343  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 11:06:06,355  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 all the dispatchers started
+ 2023-07-06 11:11:06,502  INFO Hangfire.Server.ServerWatchdog.? [?] - MESSAGE: 1 servers were removed due to timeout
+ 2023-07-06 11:14:05,716  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 11:14:05,723  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 caught stopping signal...
+ 2023-07-06 11:14:05,731  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 caught stopped signal...
+ 2023-07-06 11:14:05,732  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 All dispatchers stopped
+ 2023-07-06 11:14:05,738  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 successfully reported itself as stopped in 3.4228 ms
+ 2023-07-06 11:14:05,739  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:26532:6d8572c8 has been stopped in total 15.1643 ms
+ 2023-07-06 11:15:05,171  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 11:15:05,354  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 11:15:06,591  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 11:15:06,911  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 11:15:08,012  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 11:15:08,013  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 11:15:08,014  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 11:15:08,035  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 11:15:08,038  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 11:15:08,039  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 11:15:08,050  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b successfully announced in 18.8678 ms
+ 2023-07-06 11:15:08,057  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 11:15:08,118  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b all the dispatchers started
+ 2023-07-06 11:43:05,887  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 11:43:05,892  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b caught stopping signal...
+ 2023-07-06 11:43:05,903  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b caught stopped signal...
+ 2023-07-06 11:43:05,907  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b All dispatchers stopped
+ 2023-07-06 11:43:05,915  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b successfully reported itself as stopped in 4.2564 ms
+ 2023-07-06 11:43:05,916  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:28352:1b5c1c4b has been stopped in total 22.4118 ms
+ 2023-07-06 11:50:27,087  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+ 2023-07-06 11:50:27,220  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal property 'ChargeInPercentage' on entity type 'PayplatCollectionCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2023-07-06 11:50:28,114  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Start installing Hangfire SQL objects...
+ 2023-07-06 11:50:28,316  INFO Hangfire.SqlServer.SqlServerObjectsInstaller.? [?] - MESSAGE: Hangfire SQL objects installed.
+ 2023-07-06 11:50:29,256  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Starting Hangfire Server using job storage: 'SQL Server: .@PayPlatDb'
+ 2023-07-06 11:50:29,256  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+ 2023-07-06 11:50:29,257  INFO Hangfire.BackgroundJobServer.? [?] - MESSAGE: Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+ 2023-07-06 11:50:29,274  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-07-06 11:50:29,276  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Production
+ 2023-07-06 11:50:29,277  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: \\Mac\Home\Documents\Deploys\KulPayAPIDeploy
+ 2023-07-06 11:50:29,291  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 successfully announced in 16.789 ms
+ 2023-07-06 11:50:29,297  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+ 2023-07-06 11:50:29,318  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 all the dispatchers started
+ 2023-07-06 12:02:23,453  INFO Microsoft.Hosting.Lifetime.OnApplicationStopping [0] - MESSAGE: Application is shutting down...
+ 2023-07-06 12:02:23,461  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 caught stopping signal...
+ 2023-07-06 12:02:23,464  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 caught stopped signal...
+ 2023-07-06 12:02:23,468  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 All dispatchers stopped
+ 2023-07-06 12:02:23,475  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 successfully reported itself as stopped in 4.7971 ms
+ 2023-07-06 12:02:23,476  INFO Hangfire.Server.BackgroundServerProcess.? [?] - MESSAGE: Server macbooke916:24508:c84d97b5 has been stopped in total 13.6322 ms
+ 
